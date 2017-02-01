@@ -10,7 +10,7 @@ A PHP class which provides quick as-needed access to pre- and user defined data 
 ## Dependencies
 The following dependencies will be automatically installed, if not already, when installing via composer:
 
-	~ [gavinggordon/predefiner](https://github.com/gavinggordon/predefiner) 
+- [gavinggordon/predefiner](https://github.com/gavinggordon/predefiner)
 
 ## Usage
 
