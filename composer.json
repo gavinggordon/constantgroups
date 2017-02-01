@@ -1,0 +1,51 @@
+{
+	"name": "gavinggordon/constantgroups",
+	"description": "A PHP class which provides quick as-needed access to pre- and user defined data via constants.",
+	"keywords": [
+		"v1.0.0",
+		"php",
+		"constants",
+		"datasets",
+		"groups",
+		"define",
+		"definitions",
+		"setup",
+		"setting",
+		"configuration",
+		"config",
+		"env",
+		"environment"
+	],
+	"version": "1.0.0",
+	"minumum-stability": "stable",
+	"homepage": "http://constantgroups.gavingordon.com",
+	"support": {
+		"issues": "https://github.com/gavinggordon/constantgroups/issues",
+		"source": "https://github.com/gavinggordon/constantgroups"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/constantgroups.git"	
+		}
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "me@gavingordon.com",
+			"homepage": "https://gavingordon.com"
+		}
+	],
+	"require": {
+		"gavinggordon/predefiner": "^1.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"GGG\\Config\\": "src/"
+		}
+	}
+}
