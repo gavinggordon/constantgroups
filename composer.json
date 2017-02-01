@@ -38,7 +38,7 @@
 		}
 	],
 	"require": {
-		"gavinggordon/predefiner": "^1.*"
+		"gavinggordon/predefiner": "1.0.*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.0.*"
